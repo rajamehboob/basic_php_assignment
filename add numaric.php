@@ -1,11 +1,13 @@
 <?php
-// Declare variables
-$number1 = 10;
-$number2 = 20;
+// Define two numbers
+$a = 10;
+$b = 5;
 
-// Add the variables
-$sum = $number1 + $number2;
+// Perform arithmetic operations
+$addition = $a + $b;
+$subtraction = $a - $b;
 
-// Output the result
-echo "The sum of $number1 and $number2 is $sum.";
+// Output the results
+echo "Addition: $a + $b = $addition\n";
+echo "Subtraction: $a - $b = $subtraction\n";
 ?>
