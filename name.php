@@ -1,5 +1,8 @@
 <?php
-echo "hello my name is mehboob ur rehman";
-echo "i am 44 years old and my favorite colour is green";
+$name = "mehboob ur rehman";          // String
+$age = 44;               // Integer
+    $fav color = "green";
+    echo '<div style="color: ' . $ color . ';"> green!</ div>';
 
+$courses = ["PHP", "HTML", "CSS"]; // Array
 ?>
